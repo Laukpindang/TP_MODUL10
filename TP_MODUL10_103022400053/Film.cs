@@ -2,10 +2,10 @@
 {
     public class Film
     {
-        public string Judul { get; set; }
-        public string Sutradara { get; set; }
-        public string Tahun { get; set; }
-        public string Genre { get; set; }
-        public string Rating { get; set; }
+        public string judul { get; set; }
+        public string sutradara { get; set; }
+        public string tahun { get; set; }
+        public string genre { get; set; }
+        public string rating { get; set; }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TP_MODUL10_103022400053;
 
 namespace TP_MODUL10_103022400053.Controllers
 {
@@ -11,27 +10,27 @@ namespace TP_MODUL10_103022400053.Controllers
         {
             new Film
             {
-                Judul = "Inception",
-                Sutradara = "Christopher Nolan",
-                Tahun = "2010",
-                Genre = "Sci-Fi",
-                Rating = "9.0"
+                judul = "Inception",
+                sutradara = "Christopher Nolan",
+                tahun = "2010",
+                genre = "Sci-Fi",
+                rating = "9.0"
             },
             new Film
             {
-                Judul = "Interstellar",
-                Sutradara = "Christopher Nolan",
-                Tahun = "2014",
-                Genre = "Sci-Fi",
-                Rating = "8.7"
+                judul = "Interstellar",
+                sutradara = "Christopher Nolan",
+                tahun = "2014",
+                genre = "Sci-Fi",
+                rating = "8.7"
             },
             new Film
             {
-                Judul = "Parasite",
-                Sutradara = "Bong Joon-ho",
-                Tahun = "2019",
-                Genre = "Thriller",
-                Rating = "8.6"
+                judul = "Parasite",
+                sutradara = "Bong Joon-ho",
+                tahun = "2019",
+                genre = "Thriller",
+                rating = "8.6"
             }
         };
         [HttpGet]
